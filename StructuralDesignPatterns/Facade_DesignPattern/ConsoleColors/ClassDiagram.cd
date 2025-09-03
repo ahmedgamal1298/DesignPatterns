@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FacadeConsole" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <Members>
+      <Field Name="m_instance" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAgCIAAAEAAEAAAA=</HashCode>
+      <FileName>inc\FacadseConsole.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_instance" />
+      <Field Name="m_std" />
+    </ShowAsAssociation>
+  </Class>
+  <Typedef Name="CONSOLE_SCREEN_BUFFER_INFO" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\consoleapi2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HANDLE" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winnt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Color">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQIAAAAAAAAAAAgAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>inc\FacadseConsole.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
