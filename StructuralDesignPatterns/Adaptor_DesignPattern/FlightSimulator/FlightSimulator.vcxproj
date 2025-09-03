@@ -19,21 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StructuralDesignPatterns\Adaptor_DesignPattern\inc\Adaptee.h" />
-    <ClInclude Include="StructuralDesignPatterns\Adaptor_DesignPattern\inc\Adapter.h" />
-    <ClInclude Include="StructuralDesignPatterns\Adaptor_DesignPattern\inc\Target.h" />
+    <ClInclude Include="inc\AccelAdapter.h" />
+    <ClInclude Include="inc\Accelerometer.h" />
+    <ClInclude Include="inc\Input.h" />
+    <ClInclude Include="inc\KeyBoard.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StructuralDesignPatterns\Adaptor_DesignPattern\src\Adaptee.cpp" />
-    <ClCompile Include="StructuralDesignPatterns\Adaptor_DesignPattern\src\Adapter.cpp" />
-    <ClCompile Include="StructuralDesignPatterns\Adaptor_DesignPattern\src\main_Adaptor_DesignPattern.cpp" />
-    <ClCompile Include="StructuralDesignPatterns\Adaptor_DesignPattern\src\Target.cpp" />
+    <ClCompile Include="src\AccelAdapter.cpp" />
+    <ClCompile Include="src\Accelerometer.cpp" />
+    <ClCompile Include="src\Input.cpp" />
+    <ClCompile Include="src\KeyBoard.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0cf4a30b-b4d9-41fd-81b0-12a976fc0e81}</ProjectGuid>
-    <RootNamespace>DesignPattern</RootNamespace>
+    <ProjectGuid>{e742ea53-9d39-441a-9a49-b7d44ed4ec09}</ProjectGuid>
+    <RootNamespace>FlightSimulator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
