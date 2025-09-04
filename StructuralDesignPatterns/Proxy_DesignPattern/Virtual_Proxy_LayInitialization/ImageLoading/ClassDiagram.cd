@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Image" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RealImage">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>inc\RealImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProxyImageLoading">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAEAAAAAAAQAAAAABAAAABAAAAAAABAE=</HashCode>
+      <FileName>inc\ProxyImageLoading.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="realImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::unique_ptr&lt;_Ty, _Dx&gt;" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAAAAgEAEAAQgAAAAAAAAAAAQAgAAAAAIg=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
