@@ -28,3 +28,9 @@ void ProxyImageLoading::Display(string m_file)
 	else
 		cout << "No image file specified." << endl;
 }
+
+void ProxyImageLoading::ChnageImageFile(string newFile)
+{
+	if (newFile != "None")
+		Load(newFile);
+}

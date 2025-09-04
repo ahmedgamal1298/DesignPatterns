@@ -17,7 +17,7 @@
   <Class Name="ProxyImageLoading">
     <Position X="3.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAAEAAAAAAAQAAAAABAAAABAAAAAAABAE=</HashCode>
+      <HashCode>AAAAgAAAAAAAAEAAAAAAAQAAAAABAAAARAAAAAAABAE=</HashCode>
       <FileName>inc\ProxyImageLoading.h</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

@@ -10,7 +10,8 @@ int main()
 {
 	string mfile = "Jimmy Image";
     Image* proxy = new ProxyImageLoading(mfile);
-	//dynamic_cast<ProxyImageLoading*>(proxy)->Load(mfile);
+	string mfile2 = "Ahmed Image";
+	dynamic_cast<ProxyImageLoading*>(proxy)->ChnageImageFile(mfile2);
 	proxy->Display();
 }
 
