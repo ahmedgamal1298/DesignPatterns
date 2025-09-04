@@ -32,5 +32,5 @@ void ProxyImageLoading::Display(string m_file)
 void ProxyImageLoading::ChnageImageFile(string newFile)
 {
 	if (newFile != "None")
-		Load(newFile);
+		this->file = newFile;
 }
