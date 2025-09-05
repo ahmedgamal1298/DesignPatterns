@@ -24,8 +24,8 @@
       <Field Name="realImage" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="std::unique_ptr&lt;_Ty, _Dx&gt;" Collapsed="true">
-    <Position X="7.5" Y="3.25" Width="1.5" />
+  <Class Name="std::unique_ptr&lt;_Ty, _Dx&gt;">
+    <Position X="7.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAEAAAAAAgEAEAAQgAAAAAAAAAAAQAgAAAAAIg=</HashCode>
       <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory</FileName>
