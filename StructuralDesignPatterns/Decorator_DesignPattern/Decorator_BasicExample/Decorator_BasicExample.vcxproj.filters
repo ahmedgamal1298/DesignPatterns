@@ -15,39 +15,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Client.cpp">
+    <ClCompile Include="src\Decorator_BasicExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Storage.cpp">
+    <ClCompile Include="src\Component.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Repository.cpp">
+    <ClCompile Include="src\ConcreteComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Employee.cpp">
+    <ClCompile Include="src\Decorator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ProxyRepo.cpp">
+    <ClCompile Include="src\ConcreteDecoratorA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConcreteDecoratorB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inc\Storage.h">
+    <ClInclude Include="inc\Component.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="inc\Repository.h">
+    <ClInclude Include="inc\ConcreteComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="inc\Employee.h">
+    <ClInclude Include="inc\Decorator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="inc\ProxyRepo.h">
+    <ClInclude Include="inc\ConcreteDecoratorA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Sales.txt" />
-    <Text Include="data.txt" />
+    <ClInclude Include="inc\ConcreteDecoratorB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
