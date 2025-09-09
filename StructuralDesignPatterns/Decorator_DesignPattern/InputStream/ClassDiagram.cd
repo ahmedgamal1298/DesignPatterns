@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InputStream" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgCAAAA=</HashCode>
+      <FileName>inc\InputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileInputStream" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAEAAAAAoAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>inc\FileInputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputStream" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>inc\OutputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileOutputStream" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAAAgAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>inc\FileOutputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputStreamDecorator">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAEAAgAAAAAAAAAAAAAACAQAA=</HashCode>
+      <FileName>inc\InputStreamDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputSreamDecorator">
+    <Position X="3.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAGAAAA=</HashCode>
+      <FileName>inc\OutputSreamDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferedInputStreamDecorator" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>inc\BufferedInputStreamDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferedOutputStreamDecorator" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAGAAAA=</HashCode>
+      <FileName>inc\BufferedOutputStreamDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
