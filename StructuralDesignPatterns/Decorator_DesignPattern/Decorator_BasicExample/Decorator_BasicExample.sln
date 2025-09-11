@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InputStream", "..\InputStream\InputStream.vcxproj", "{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticDecorator", "..\StaticDecorator\StaticDecorator.vcxproj", "{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Debug|x64.ActiveCfg = Debug|x64
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Debug|x64.Build.0 = Debug|x64
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Debug|x86.ActiveCfg = Debug|Win32
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Debug|x86.Build.0 = Debug|Win32
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Release|x64.ActiveCfg = Release|x64
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Release|x64.Build.0 = Release|x64
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Release|x86.ActiveCfg = Release|Win32
-		{D6B74B3F-870A-4BF0-A2DF-CB7B84952DA9}.Release|x86.Build.0 = Release|Win32
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Debug|x64.ActiveCfg = Debug|x64
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Debug|x64.Build.0 = Debug|x64
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Debug|x86.Build.0 = Debug|Win32
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Release|x64.ActiveCfg = Release|x64
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Release|x64.Build.0 = Release|x64
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Release|x86.ActiveCfg = Release|Win32
+		{FF3DF691-7F3B-4C81-BDD5-296083AF63ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
