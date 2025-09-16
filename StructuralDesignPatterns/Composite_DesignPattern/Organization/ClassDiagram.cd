@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Employee">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAABAQAASAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>inc\Employee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftwareDepartment">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="Employees" Type="std::vector&lt;_Ty, _Alloc&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="3.847" />
+        <Point X="5.75" Y="3.847" />
+        <Point X="5.75" Y="1.562" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABAIAAAAABQAACAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\SoftwareDepartment.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Employees" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>A2AAEYEiAbLsCEBAAONYMAkWM0UARBIggQkwghAFQko=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrganizationInterface" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAIAAAAABQgAAIAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>inc\OrganizationInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Info" Collapsed="true">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>inc\Employee.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
