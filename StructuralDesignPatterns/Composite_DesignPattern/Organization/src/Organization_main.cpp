@@ -19,7 +19,8 @@ int main()
 	std::cout << *SoftwareDept;
 	SoftwareDept->Remove(std::shared_ptr<OrganizationInterface>(emp3));
 	std::cout << *SoftwareDept;
-
+	// Memory leak detection 
+	_CrtDumpMemoryLeaks();
 }
 
 
