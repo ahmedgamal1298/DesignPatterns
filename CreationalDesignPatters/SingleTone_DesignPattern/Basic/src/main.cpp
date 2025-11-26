@@ -5,12 +5,16 @@
 
 int main()
 {
-    Basic* instance1 = Basic::GetInstance();
-    Basic* instance2 = Basic::GetInstance();
-
-    if (instance1 == instance2) {
-        std::cout << "Both instances are the same\n";
-    }
+    std::thread t1{ []() {
+          Basic* instance1 = Basic::GetInstance();
+          }
+    };
+    std::thread t2{ []()
+    {
+        Basic* instance2 = Basic::GetInstance();
+    } };
+    t1.join();
+    t2.join();
 
     Basic::DestroyInstance();
     return 0;

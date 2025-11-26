@@ -10,6 +10,14 @@ Basic* Basic::GetInstance() {
 	if (temp == nullptr)
 	{
 		std::lock_guard<std::mutex> lock(mutex_m);
+		/* if the next line is not used the sequence will be like that which will cause an issue 
+		*	Thread A reads temp = nullptr, acquires lock
+		*	Thread B reads temp = nullptr, waits for lock
+		*	Thread A creates instance and stores it
+		*	Thread B acquires lock, but temp is still nullptr (never re-read!)
+		*	Thread B creates another instance 
+		*/
+		temp = m_instance.load(std::memory_order_acquire);
 		if (temp == nullptr) {
 			temp = new Basic();
 			m_instance.store(temp, std::memory_order_release);

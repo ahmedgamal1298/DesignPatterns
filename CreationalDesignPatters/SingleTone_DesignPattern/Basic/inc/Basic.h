@@ -8,7 +8,7 @@ class Basic
 {
 	inline static std::mutex mutex_m{};
 	inline static std::atomic<Basic*> m_instance{ nullptr };
-	Basic() = default;
+	Basic() { std::cout << __FUNCSIG__ << std::endl; }
 	~Basic() {
 		std::cout << __FUNCSIG__ << std::endl;
 	
