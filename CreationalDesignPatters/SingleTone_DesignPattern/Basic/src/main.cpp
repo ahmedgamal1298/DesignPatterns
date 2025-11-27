@@ -13,7 +13,13 @@ int main()
     {
         Basic* instance2 = Basic::GetInstance();
     } };
+    
+    /* Both t1 and t2 start running immediately after creation. 
+     * They run in parallel! The join() calls only affect when the main thread continues.
+     */
+
     t1.join();
+    // or t1.detach();  // Thread runs independently, main doesn't wait
     t2.join();
 
     Basic::DestroyInstance();
